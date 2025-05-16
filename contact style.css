@@ -1,0 +1,39 @@
+h1 {
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 30vh; /* Sets the height of the body to the full viewport height */
+    margin: 0; /* Removes default margin */
+    color: blue;
+    font-size: 50px;
+}
+p {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center; /* Centers content horizontally */
+    font-size: 30px;
+    color: rgb(4, 1, 19);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;      /* centers horizontally */
+    justify-content: center;  /* centers vertically */
+    min-height: 60vh;         /* adjust as needed */
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+body {
+    background-color: #e25b5b; /* Light gray background */
+    font-family: Arial, sans-serif; /* Font style */
+}
+ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    background: transparent; /* or set a color if you want */
+    font-size:50px;
+}

@@ -1,0 +1,128 @@
+
+body {
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file name */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    
+}
+h1 {
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 30vh; /* Sets the height of the body to the full viewport height */
+    margin: 0; /* Removes default margin */
+    color: blue;
+}
+p:nth-of-type(1) {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center; /* Centers content horizontally */
+    font-size: 30px;
+    color: rgb(4, 1, 19);
+}
+
+p:nth-of-type(2) {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center; /* Centers content horizontally */
+    font-size: 30px;
+    color: green;
+}
+
+p:nth-of-type(3) {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center; /* Centers content horizontally */
+    font-size: 30px;
+    color: red;
+}
+
+p:nth-of-type(4) {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center; /* Centers content horizontally */
+    font-size: 30px;
+    color: purple;
+}
+
+p:nth-of-type(5) {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center; /* Centers content horizontally */
+    font-size: 30px;
+    color: orange;
+}
+
+p:nth-of-type(6) {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center; /* Centers content horizontally */
+    font-size: 30px;
+    color: pink;
+}
+
+p:nth-of-type(7) {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center; /* Centers content horizontally */
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(115, 89, 231);
+}
+
+h2, ol li {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center; /* Centers content horizontally */
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+form {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center; /* Centers content horizontally */
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+nav {
+    display: flex;
+    align-items: center; /* Aligns the list vertically */
+    justify-content: center; /* Centers the list horizontally */
+}
+
+ul {
+    list-style: none; /* Removes default bullet points from the list */
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+li {
+    display: inline-block; /* Makes list items appear in a row */
+    margin-right: 20px; /* Adds spacing between items */
+}
+#userTab {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #333;
+    background: #f0f0f0;
+    font-size: 1.2em;
+    width: fit-content;
+}
+.user-btn {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background: #f0f0f0;
+    color: #222;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+.user-btn:hover {
+    background: #e0e0e0;
+}

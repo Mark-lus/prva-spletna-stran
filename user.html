@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First website coding1</title>
+    <link rel="stylesheet" href="user.css">
+    <!-- This is your "user tab" -->
+<div id="userTab"></div>
+<div class="center-btn">
+    <button id="logoutBtn">Logout</button>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const userTab = document.getElementById("userTab");
+    const logoutBtn = document.getElementById("logoutBtn");
+    const savedIme = localStorage.getItem("ime");
+    const savedEmail = localStorage.getItem("email");
+    if (savedIme || savedEmail) {
+        userTab.textContent = "Ime: " + (savedIme || "") + " | Email: " + (savedEmail || "");
+    } else {
+        userTab.textContent = "No user data found.";
+    }
+
+    logoutBtn.addEventListener("click", function() {
+        localStorage.removeItem("ime");
+        localStorage.removeItem("email");
+        userTab.textContent = "No user data found.";
+    });
+});
+</script>

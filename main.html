@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First website coding1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css">
+<script src="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js"></script>
+ <!-- Chess.js for chess logic -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.13.4/chess.min.js"></script>
+</head>
+<body>
+    <a href="user.html" class="user-btn" id="usrBtn">
+    <div style="font-size: 3rem;">👤</div>
+    <div id="usrName" style="font-size: 1.2rem;">usr</div>
+</a>
+    <header>
+        <h1>My First Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>Hello World</p>
+ <form id="myForm">
+    <label for="ime">Ime:</label>
+    <input type="text" id="ime" name="ime">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <input type="submit" value="Pošlji">
+</form>
+
+        <p>To je moja prva spletna stran</p>
+        <p>učim se HTML in CSS.</p>
+        <p>veselim se narediti to spletno stran</p>
+        <p>kaj cm pa zdej narest</p>
+        <p>juhu</p>
+        <p>Obišči <a href=https://openai.com/index/chatgpt/ target="_blank">chatgpt</a></p>
+        <h2>Urejen seznam:</h2>
+        <ol>
+            <li>Pojdi v trgovino</li>
+            <li>Kupi kruh</li>
+            <li>Vrni se domov</li>
+        </ol>
+        <div id="board" style="width: 400px"></div>
+<div id="puzzle-status"></div>
+</main>
+    <script src="javascript.js"></script>
+</body>
+</html>
